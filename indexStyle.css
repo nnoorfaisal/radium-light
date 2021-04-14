@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:none;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body
+{
+  background: linear-gradient(180deg,#c6edf7fd 10%, #da97eb 100%);
+}
+.background
+{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:85vw;
+    height:42vh;
+    left:4vh;
+    top:18vh;
+    margin-top:1vh;
+    
+    
+}
+
+.image
+{
+    width: 42vw;
+    height:21vh;
+    border:3px solid rgb(245, 229, 247);
+    color:rgb(53, 43, 53);
+    text-align: center;
+    
+}
+
+
+
+#one
+{
+  
+  border-radius: 0 32vw;
+  background:linear-gradient(130deg, #d83888ce, #FF7EBE, #F5D0E2);
+  padding-left:0vw;
+  padding-top:9vh;
+  font-size: 2.5vh;
+  font-weight:normal;
+
+}
+#two
+{
+  border-radius: 32vw 0;
+  background:linear-gradient(220deg, #d83888ce, #FF7EBE, #F5D0E2);
+  padding-left:0vw;
+  padding-top:5vh;
+  font-size: 2.5vh;
+  font-weight:normal;
+}
+
+#three
+{
+  border-radius: 32vw 0;
+  background:linear-gradient(35deg, #d83888ce, #FF7EBE, #f3dfe9);
+  padding-left:5vw;
+  padding-top:4.8vh;
+  font-size: 2.2vh;
+  font-weight:normal;
+}
+
+#four
+{
+  border-radius: 0 32vw;
+  background:linear-gradient(300deg, #d83888ce, #FF7EBE, #F5D0E2);
+  padding-left:0vw;
+  padding-top:7vh;
+  font-size: 2.1vh;
+  font-weight:normal;
+}
+
+
+#five
+{
+ 
+  border-radius: 0 32vw;
+  background:linear-gradient(300deg, #d83888ce, #FF7EBE, #F5D0E2);
+  padding-left:0vw;
+  padding-top:6vh;
+  font-size: 2.1vh;
+  font-weight:normal;
+
+}
+
+
+
+/*  */
+
+#malikContainer
+{
+  position: relative;
+  width:100vw;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom:50vh;
+
+}
+
+#malikSubcontainer
+{
+  position: relative;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-top:2vh;
+  width:100vw;
+  height:100%;
+
+}
+#malikChaperTitle,#malikChaperTitler
+{
+  
+  width:45vw;
+  height:22vh;
+  margin-right:10px;
+  background:rgba(255, 250, 250, 0.281);
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 5%;
+  margin-bottom:2vh;
+  transform:rotate(0deg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.7vw;
+}
+
+#malikSubcontainerC
+{
+  position:absolute;
+  top:14vh;
+}
+
+#hpt
+{
+  position:relative;
+  width:100%;
+  text-align:center;
+  color:rgba(57, 64, 65, 0.836);
+  font-size: 13.5px;
+  font-weight:medium;
+  
+  
+}
+#h,#hr
+{
+  color:rgba(57, 64, 65, 0.836);
+  text-align: center;
+  
+}
+
+
+/*  */
+#hadithno
+{
+  width:25vw;
+  height:25vw;
+  background:rgba(255, 250, 250, 0.281);
+  margin:0px 5px 5px 0px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgba(57, 64, 65, 0.900);
+}
+
+#hadithC
+{
+  width:100vw;
+  height: 100vh;
+  overflow: scroll;
+  color:black;
+  text-align: center;
+  font-size: 4.4vw;
+  font-weight:500;
+  background:rgba(255, 250, 250, 0.281);
+  line-height: 3.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hadithSc
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  width:95vw;
+  top:0vh;
+}
+
+#taskSubcontainer
+{
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#task
+{
+  width:35vw;
+  height:20vh;
+  background:rgba(255, 250, 250, 0.281);
+  margin-left:5px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+a{
+  color:rgb(90, 77, 90);
+}
+
+
+
+#onep,#twop,#threep,#fourp,#fivep
+{
+  width:30vw;
+  position:relative;
+  text-align: center;
+  line-height: 3.5vh;
+}
+
+#onep
+{
+  position:relative;
+  top:-2vh;
+  left:2vw;
+}
+
+#twop
+{
+  position:relative;
+  top:1vh;
+  left:6vw;
+}
+
+#threep
+{
+  top:-1vh;
+  left:.5vw;
+}
+#fourp
+{
+  font-size:4vw;
+  top:-2vh;
+  left:4vw;
+}
+
+#fivep
+{
+  font-size:4.5vw;
+  left:5vw;
+}
+span
+{
+  background:black;
+  color:white;
+}

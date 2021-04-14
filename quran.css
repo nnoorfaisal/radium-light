@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  text-decoration: none;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    
+  }
+  tr:nth-child(even) {
+    background-color: #dbf6ffee;
+  }
+  tr:nth-child(odd) {
+    
+    background-color: #f5c3f2;
+  }
+table{
+    width:100vw;
+   
+    
+}
+
+th{
+  background-color: #f5c3f2;
+}
+a{
+  color:black;
+}
+#transiliration
+{
+  text-align: right;
+  letter-spacing: .1vw;
+}
+
+#translation
+{
+  text-align: left;
+  letter-spacing: .1vw;
+}
